@@ -1,0 +1,80 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(245, 212, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.zone{
+    /* padding: 10px 20px; */
+    /* margin: 20px 10px; */
+    transition: all 0.3s linear;
+    border: 1px solid  rgb(253, 164, 164);
+    border-radius: 4px;
+    font-size: 1.5em; 
+    
+}
+.box:hover{
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-100deg);
+    transform: rotate(-7deg);
+}
+.main-nav{
+    display: flex;
+    font-size: 0.7em;
+    margin: 0px;
+    background-color:  rgb(243, 224, 224);
+}
+@media only screen and (max-width: 350px, 1fr){
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+li{
+    padding: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+   
+    
+}
+.push{
+    margin-left: auto;
+}
+.container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(251, 255, 255);
+}
+.cover{
+    width: 25rem;
+    background-color: rgb(243, 224, 224);
+}
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+ .box > img {
+   width: 100%;
+  
+}
+.box{
+    background-color: rgb(83, 75, 235);
+    padding: 100px;
+    margin: 30px;
+}
+
+.yellow{
+    text-align: center;
+    background-color: deeppink;
+}
